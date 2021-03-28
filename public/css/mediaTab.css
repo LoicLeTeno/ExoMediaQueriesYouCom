@@ -1,0 +1,128 @@
+@media screen and (min-width: 445px) and (max-width: 768px) {
+
+/* header */
+    nav {
+        display: block;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo > img {
+        margin: 30px;
+    }
+
+    .menu {
+        justify-content: space-around;
+        
+        margin: auto 50px;
+    }
+
+
+/*section packages*/
+    #logo-packages>img {
+        width: 100px;
+
+        margin: 50px 50px;
+    }
+
+    #text-packages {
+        padding-top: 30px;
+    }
+
+    #logo-packages>img {
+        margin: 40px 50px;
+    }
+
+    #text-packages > .up {
+        font-size: 30px;
+
+        margin-top: 20px;
+    }
+
+    #text-packages > .down {
+        font-size: 15px;
+
+        padding-top: 5px;
+        pad
+        margin-top: 5px;
+    }
+
+
+/* section eclosion, evolution et envol */
+    .title-eclosion {
+        font-size: 20px;
+    }
+
+    .title-eclosion>h1 {
+        padding: 10px 5px;
+        margin:10px auto;
+    }
+
+    #eclosion {
+        width: 30%;
+    }
+
+    #eclosion>img {
+        width: 150px;
+
+        margin: 0px 50px 10px 50px;
+    }
+
+    #text-eclosion {
+        font-size: 15px;
+
+        width: auto;
+
+        padding: 0px 50px;
+    }
+
+
+/* section logo eclosion, evolution, envol */
+    .pad {
+        padding: 20px 70px;
+    }
+
+    .dispo-logo>div {
+        font-size: 15px;
+    }
+
+    .dispo-logo>div>img {
+        width: 65px;
+    }
+
+
+/* section logo evolution modif */
+    .padEvo {
+        padding: 20px 70px 0px;
+    }
+
+    .dispo-logo-exception>div>img {
+    width: 65px;
+    }
+
+
+/* section footer */
+    .div-footer {
+        font-size: 15px;
+    }
+
+    .div-footer>div>p {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .div-footer div img:nth-child(2) {
+        padding-bottom: 80px;
+    }
+
+    .div-footer div img:nth-child(3) {
+        padding-bottom: 40px;
+    }
+
+    .cond {
+        padding-bottom: 20px;
+    }
+}
