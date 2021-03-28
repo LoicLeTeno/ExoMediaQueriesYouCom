@@ -1,4 +1,4 @@
-@media screen and (min-width: 375px) and (max-width: 425px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
     /* header */
     nav {
         display: block;
@@ -14,7 +14,6 @@
         width: 150px;
 
         margin: 10px 30px 30px;
-
     }
 
     .menu {
@@ -28,11 +27,11 @@
     }
 
     .menu div:nth-of-type(1) {
-        margin-left: 70px;
+        margin-left: 65px;
     }
 
     .menu div:nth-of-type(4) {
-        margin-left: 70px;
+        margin-left: 66px;
     }
 
     .menu p {
@@ -46,24 +45,44 @@
 
 
 /*section packages*/
+.packages {
+    display: inline-block;
+}
+
+
 #text-packages {
-    padding-top: 30px;
+    padding-top: 0px;
+    padding-left: 0px;
+
+    margin-left: 48px;
+}
+
+#logo-packages {
+    width: 50%;
+    
+    margin-left: 70px;
 }
 
 #logo-packages>img {
-    width: 100px;
+    width: 80px;
 
-    margin: 40px 50px;
+
+    margin: 10px 50px;
+    padding-top: 10px;
 }
 
 #text-packages > .up {
     font-size: 30px;
 
-    margin-top: 20px;
+    text-align: center;
+
+    margin-top: 0px;
 }
 
 #text-packages > .down {
     font-size: 15px;
+
+    text-align: center;
 
     padding-top: 5px;
     margin-top: 5px;
@@ -72,7 +91,7 @@
 
 /* section eclosion, evolution et envol */
     .title-eclosion {
-        font-size: 20px;
+        font-size: 10px;
     }
 
     .title-eclosion>h1 {
@@ -85,9 +104,9 @@
     }
 
     #eclosion>img {
-        width: 150px;
+        width: 50px;
 
-        margin: 0px 50px 10px 50px;
+        margin: 0px 50px 10px 20px;
     }
 
     #text-eclosion {
@@ -95,7 +114,7 @@
 
         width: auto;
 
-        padding: 0px 50px;
+        padding: 0px 0px;
     }
 
 
@@ -105,11 +124,19 @@
     }
 
     .dispo-logo>div {
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .dispo-logo>div>img {
-        width: 65px;
+        margin: 10px;
+
+        width: 50px;
+    }
+
+    .dispo-logo>div>p {
+        width: 20px;
+        
+        margin: 0px 0px 0px 23px;
     }
 
 
@@ -133,12 +160,8 @@
         margin-bottom: 20px;
     }
 
-    .div-footer div img:nth-child(2) {
-        padding-bottom: 80px;
-    }
-
-    .div-footer div img:nth-child(3) {
-        padding-bottom: 40px;
+    .div-footer div:nth-of-type(3)>img:nth-child(2) {
+        margin-top: 40px;
     }
 
     .cond {
