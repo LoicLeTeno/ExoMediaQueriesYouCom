@@ -1,8 +1,8 @@
-@media screen and (min-width: 425px) and (max-width: 768px) {
-
-/* header */
+@media screen and (min-width: 375px) and (max-width: 425px) {
+    /* header */
     nav {
         display: block;
+
     }
 
     .logo {
@@ -11,39 +11,63 @@
     }
 
     .logo > img {
-        margin: 30px;
+        width: 150px;
+
+        margin: 10px 30px 30px;
+
     }
 
     .menu {
-        justify-content: space-around;
-        
-        margin: auto 50px;
+        display: block;
     }
+
+    .menu div{
+        display: inline-block;
+
+        margin: 3px 8px;
+    }
+
+    .menu div:nth-of-type(1) {
+        margin-left: 70px;
+    }
+
+    .menu div:nth-of-type(4) {
+        margin-left: 70px;
+    }
+
+    .menu p {
+        font-size: 8px;
+    }
+
+    .menu img  {
+        width: 50px;
+    }
+
 
 
 /*section packages*/
-    #text-packages {
-        padding-top: 30px;
-    }
+#text-packages {
+    padding-top: 30px;
+}
 
-    #logo-packages>img {
-        width: 100px;
+#logo-packages>img {
+    width: 100px;
 
-        margin: 40px 50px;
-    }
+    margin: 40px 50px;
+}
 
-    #text-packages > .up {
-        font-size: 30px;
+#text-packages > .up {
+    font-size: 30px;
 
-        margin-top: 20px;
-    }
+    margin-top: 20px;
+}
 
-    #text-packages > .down {
-        font-size: 15px;
+#text-packages > .down {
+    font-size: 15px;
 
-        padding-top: 5px;
-        margin-top: 5px;
-    }
+    padding-top: 5px;
+    margin-top: 5px;
+}
 
 
 /* section eclosion, evolution et envol */
